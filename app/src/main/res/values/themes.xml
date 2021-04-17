@@ -11,7 +11,31 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
         <!-- Customize your theme here. -->
+
+
+
+        <!-- TEXTE NORMAL -->
+        <style name="DefaultTextStyle">
+            <item name="android:textColor">@colors/black</item>
+            <item name="android:textSize">39px</item>
+            <item name="android:fontFamily">@font/cardo</item>
+            <!-- conversion des unités à faire -->
+        </style>
+
+
+        <!-- TITRE ET SOUS-TITRE" -->
+        <style name="DefaultTextStyleTitle">
+            <item name="android:textColor">@colors/rouge</item>
+            <item name="android:textSize">105px</item>
+            <item name="android:fontFamily">@font/chewy</item>
+            <!-- conversion des unités à faire -->
+
+        </style>
+
+
+
 
 
 
