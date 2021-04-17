@@ -19,17 +19,17 @@
         <!-- TEXTE NORMAL -->
         <style name="DefaultTextStyle">
             <item name="android:textColor">@colors/black</item>
-            <item name="android:textSize">39px</item>
-            <item name="android:fontFamily">@font/cardo</item>
+            <item name="android:textSize">39sp</item>
+            <item name="android:fontFamily">@font/Cardo-Regular</item>
             <!-- conversion des unités à faire -->
         </style>
 
 
         <!-- TITRE ET SOUS-TITRE" -->
         <style name="DefaultTextStyleTitle">
-            <item name="android:textColor">@colors/rouge</item>
-            <item name="android:textSize">105px</item>
-            <item name="android:fontFamily">@font/chewy</item>
+            <item name="android:textColor">@colors/red</item>
+            <item name="android:textSize">105sp</item>
+            <item name="android:fontFamily">@font/Chewy-Regular</item>
             <!-- conversion des unités à faire -->
 
         </style>
