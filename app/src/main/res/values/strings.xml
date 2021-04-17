@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">Finderv1</string>
+
+
+    <!-- DANS L'ODRE DE NOTRE MAQUETTE -->
+    <!-- DANS L'ODRE DE NOTRE MAQUETTE -->
+    <!-- DANS L'ODRE DE NOTRE MAQUETTE -->
+    <!-- DANS L'ODRE DE NOTRE MAQUETTE -->
+
+
+    <!-- Page d'accueil -->
+    <string name="enter_screen_title">Finder</string>
+    <string name="enter_screen_advice">Tape anywhere</string>
+
+    <!-- Écran de connexion -->
+    <string name="connexion_screen_title">Mon compte</string>
+    <string name="connexion_screen_mail_input">Entrez votre pseudo/e-mail</string>
+    <string name="connexion_screen_password_input">Entrez votre mot de passe</string>
+    <string name="connexion_screen_forgot_password">Vous avez oubliez votre mot de passe ?</string>
+    <string name="connexion_screen_no_account">Vous navez pas de compte? Créer votre compte gratuitement</string>
+
+    <!-- création de compte -->
+    <string name="account_creation_gender">Genre</string>
+    <string name="account_creation_lastname_input">Nom</string>
+    <string name="account_creation_firstname_input">Prénom</string>
+    <string name="account_creation_mail_input">Adresse e-mail</string>
+    <string name="account_creation_password_input">Mot de passe</string>
+    <string name="account_creation_password_confirm_input">Confirmer mot de passe</string>
+    <string name="account_creation">Créer</string>
+
+    <!-- questionnaire-->
+    <string name="survey">questionnaire</string>
+    <string name="sexual_orientation1">heterosexuel</string>
+    <string name="sexual_orientation2">homosexuel</string>
+    <string name="sexual_orientation3">bisexuel</string>
+    <string name="hobby">centre dinteret</string>
+    <string name="cinema">cinema</string>
+    <string name="sport">sport</string>
+    <string name="book">livre</string>
+    <string name="confirm">confirmer</string>
+
+
+
+
+
 </resources>
