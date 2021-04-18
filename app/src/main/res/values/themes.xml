@@ -26,7 +26,7 @@
         </style>
 
 
-        <!-- TITRE ET SOUS-TITRE" -->
+        <!-- TITRE  -->
         <style name="DefaultTextStyleTitle">
             <item name="android:textColor">@color/red</item>
             <item name="android:textSize">105sp</item>
@@ -35,5 +35,11 @@
 
         </style>
 
+        <!--Sous - Titre -->
+        <style name ="DefaultSubtitleStyle">
+            <item name="android:textColor">@color/red</item>
+            <item name="android:textSize">25sp</item>
+            <item name="android:fontFamily">@font/Chewy</item>
+        </style>
 
 </resources>
