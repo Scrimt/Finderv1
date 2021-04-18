@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         //alisée,à poil sur skype hgfyff
         //bonsoir
         //Trop BIEN
+        //vraiment trop beau
 
     }
 }
