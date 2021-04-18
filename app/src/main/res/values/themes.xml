@@ -13,32 +13,27 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
 
         <!-- Customize your theme here. -->
+    </style>
 
 
 
         <!-- TEXTE NORMAL -->
         <style name="DefaultTextStyle">
-            <item name="android:textColor">@colors/black</item>
+            <item name="android:textColor">@color/black</item>
             <item name="android:textSize">39sp</item>
-            <item name="android:fontFamily">@font/Cardo-Regular</item>
+            <item name="android:fontFamily">@font/Cardo</item>
             <!-- conversion des unités à faire -->
         </style>
 
 
         <!-- TITRE ET SOUS-TITRE" -->
         <style name="DefaultTextStyleTitle">
-            <item name="android:textColor">@colors/red</item>
+            <item name="android:textColor">@color/red</item>
             <item name="android:textSize">105sp</item>
-            <item name="android:fontFamily">@font/Chewy-Regular</item>
+            <item name="android:fontFamily">@font/Chewy</item>
             <!-- conversion des unités à faire -->
 
         </style>
 
 
-
-
-
-
-
-    </style>
 </resources>
