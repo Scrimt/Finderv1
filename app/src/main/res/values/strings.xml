@@ -20,6 +20,7 @@
     <string name="connexion_screen_no_account">Vous navez pas de compte? Créer votre compte gratuitement</string>
 
     <!-- création de compte -->
+    <string name="account_creation_title">Créer mon compte</string>
     <string name="account_creation_gender">Genre</string>
     <string name="account_creation_lastname_input">Nom</string>
     <string name="account_creation_firstname_input">Prénom</string>
