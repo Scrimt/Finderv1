@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Finderv1</string>
+    <string name="app_name">Finder</string>
 
 
     <!-- DANS L'ODRE DE NOTRE MAQUETTE -->
@@ -28,6 +28,15 @@
     <string name="account_creation_password_input">Mot de passe</string>
     <string name="account_creation_password_confirm_input">Confirmer mot de passe</string>
     <string name="account_creation">Créer</string>
+    <string-array name="genre">
+        <item>Male</item>
+        <item>Female</item>
+        <item>No</item>
+    </string-array>
+
+
+
+
 
     <!-- questionnaire-->
     <string name="survey">questionnaire</string>
