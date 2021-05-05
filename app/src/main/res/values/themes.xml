@@ -30,7 +30,7 @@
         <style name="DefaultTextStyleTitle">
             <item name="android:textColor">@color/red</item>
             <item name="android:textSize">105sp</item>
-            <item name="android:fontFamily">@font/Chewy</item>
+            <item name="android:fontFamily">@font/chewy</item>
             <!-- conversion des unités à faire -->
 
         </style>
@@ -39,7 +39,7 @@
         <style name ="DefaultSubtitleStyle">
             <item name="android:textColor">@color/red</item>
             <item name="android:textSize">25sp</item>
-            <item name="android:fontFamily">@font/Chewy</item>
+            <item name="android:fontFamily">@font/chewy</item>
         </style>
 
 </resources>
