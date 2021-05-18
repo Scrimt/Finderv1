@@ -35,9 +35,6 @@
     </string-array>
 
 
-
-
-
     <!-- questionnaire-->
     <string name="survey">questionnaire</string>
     <string name="sexual_orientation1">heterosexuel</string>
@@ -48,9 +45,6 @@
     <string name="sport">sport</string>
     <string name="book">livre</string>
     <string name="confirm">confirmer</string>
-
-
-
 
 
 </resources>
