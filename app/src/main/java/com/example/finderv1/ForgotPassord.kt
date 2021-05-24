@@ -10,10 +10,10 @@ class ForgotPassord : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forgot_passord)
 
-        val button = findViewById<Button>(R.id.buttonReturn)
+        /*val button = findViewById<Button>(R.id.buttonReturn)
         button.setOnClickListener{
             val intent = Intent(this, Connexion::class.java)
             startActivity(intent)
-        }
+        }*/
     }
 }

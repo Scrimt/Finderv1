@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Finderv1">
-        <activity android:name=".Profil"></activity>
-        <activity android:name=".Questionnaire" />
-        <activity android:name=".AccountCreation" />
-        <activity android:name=".ForgotPassord" />
-        <activity android:name=".Connexion" />
+        <activity android:name=".UserProfile"></activity>
+        <activity android:name=".profile.ProfileM1" />
         <activity android:name=".Home" />
-        <activity android:name=".fragments.OnestCOn" />
-        <activity android:name=".fragments.MainActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".Auth" />
+        <activity android:name=".Profil" />
+        <activity android:name=".Questionnaire" />
+        <activity android:name=".ForgotPassord" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "981223742211",
+    "project_id": "finderv1-e2f15",
+    "storage_bucket": "finderv1-e2f15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981223742211:android:1593a6bcbf260a82a32736",
+        "android_client_info": {
+          "package_name": "com.example.finderv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981223742211-q889varfn9t23vuhm7ptk8old8ndij99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finderv1",
+            "certificate_hash": "44372760077cc4a44d930804a87b1ca26affd65c"
+          }
+        },
+        {
+          "client_id": "981223742211-0j9si4m2glca3kqeos1lp9k8apbgpogf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuiNNH3xBW8od_A0S2fPVYVHIinwlhIBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981223742211-0j9si4m2glca3kqeos1lp9k8apbgpogf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

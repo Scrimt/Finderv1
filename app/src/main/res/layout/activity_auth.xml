@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Connexion">
+    tools:context=".Auth"
+    android:background="@color/vertdeau">
 
     <TextView
         android:id="@+id/textView4"
         style="@style/DefaultSubtitleStyle"
-        android:layout_width="254dp"
-        android:layout_height="77dp"
+        android:layout_width="172dp"
+        android:layout_height="74dp"
         android:text="@string/connexion_screen_title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintHorizontal_bias="0.594"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintVertical_bias="0.118" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -32,7 +33,7 @@
         app:srcCompat="@drawable/ic_baseline_account_circle_24" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/Email_log"
         android:layout_width="228dp"
         android:layout_height="62dp"
         android:ems="10"
@@ -43,38 +44,34 @@
         app:layout_constraintHorizontal_bias="0.524"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintVertical_bias="0.409" />
+
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/Password_Log"
         android:layout_width="229dp"
         android:layout_height="64dp"
+        android:layout_marginBottom="296dp"
         android:ems="10"
         android:hint="@string/connexion_screen_password_input"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintVertical_bias="0.036" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689"
-        app:srcCompat="@drawable/ic_baseline_arrow_forward_24" />
+        app:layout_constraintTop_toBottomOf="@+id/Email_log"
+        app:layout_constraintVertical_bias="0.771"
+        tools:ignore="UnknownId" />
 
     <Button
         android:id="@+id/buttonforgot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:text="Vous avez oublié votre mot de passe ?"
+        android:textColor="@color/red"
+        app:strokeWidth="4dp"
+        app:strokeColor="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
@@ -86,12 +83,37 @@
         android:id="@+id/buttoncreate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:text="Vous n'avez pas de compte ? Créez le vôtre gratuitement"
+        android:textColor="@color/red"
+        app:strokeWidth="4dp"
+        app:strokeColor="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.907" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/DefaultSubtitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finder"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/login_btn"
+        android:layout_width="78dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonforgot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password_Log"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
